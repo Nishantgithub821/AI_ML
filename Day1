@@ -1,0 +1,51 @@
+DAY 1 OF Code [ HOW WE PERFORM BASIC THINGS ON GOOGLE COLLAB AND ALSO HOW WE INITLIALIZE ARRAY AND USE IT ]
+
+
+#lets practice our maaths for ml
+#First import numpy lib
+import numpy as np
+# let do addition,sub,ult,division onn two vectors okey
+leta = np.array([1,2,3])
+letb = np.array([5,6,7])
+print(leta+letb)
+print(leta-letb)
+print(leta*letb)
+print(leta/letb)
+
+#now we see product or of a scaler to a vector okey let scaler = 3
+print(3*leta)
+a = 3
+print(a*letb) # this way is not a scaler but for understanding that we also do this in this way
+print(44*letb-33*leta)
+
+#now wee check the length of the vector remember the underroot formula of length but here just comand
+print(np.linalg.norm(leta))
+print(np.linalg.norm(letb)) # this way we check the lenght now,
+# now wee see the dot product okey
+a = np.array([1,2])
+b = np.array([-1,1])
+#print(np.dot(dota,dotb))
+c = np.dot(a,b)
+print(c)
+
+# now similar we do these all operations in three matrix also
+#but dot product always happens in only two matrixes
+d = np.array([[1,2,3,], [4,5,6],[7,8,9]])
+print(d)
+e = np.array([[0,0,8],[1,2,3],[2,3,4]])
+print(e)
+print(d+e)
+print(d-e)
+f =  np.linalg.inv(e) #  if we write d in the place of e it gives error because inverse of det 0 is not exists
+print(f)
+
+#Linear combination
+#1 First we wee the vector adition with apha and beta
+# now in vector addition we mulitply the vector with alpha and beta
+# and we also give the value maybe not so
+a = np.array([1,2,3])
+b = np.array([2,3,4])
+alpha = 3
+beta = 5
+
+print(alpha*a+beta*b)
