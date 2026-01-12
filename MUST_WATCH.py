@@ -1,67 +1,165 @@
-""" 
-Artificial Intelligence (AI) is a branch of Computer Science that enables machines to simulate human intelligence by performing tasks like learning, reasoning, and recognizing images or speech.
- TWO BRANCHES -> Machine Learning and Another is Deep Learning and one more that is another than that is robotics okey
+Artificial Intelligence (AI)
 
+AI is a branch of Computer Science that enables machines to think and act like humans by learning, reasoning, and recognizing images or speech.
 
-LOGIC AND INPUT GIVES TO -> TRADITIONAL SYSTEM PROGRAM -> IT GIVES US OUTPUT 
-INPUT AND OUTPUT GIVES TO ->ML TRAINING -> CREATE MODEL THAT CONTAINS LOGIC ->ML INFERNCE -> NOW WE USE OUT NEW INPUT AND IT GIVES US OUTPUT 
+Main Branches of AI
 
-Machine Learning allows systems to learn from data without explicit programming.
-CLASSIFICATON AND REGRESSION AND TWO DIFF THINGS 
+Machine Learning (ML)
 
-CLASSIFICATION MEANS FIX OUTPUT LIKE SPAN OR NOT SPAM IN MAIL EX
-IN REGRESSION MEANS NO PREDICTION OF FIX DATA LIKE IN PREDICTION IOF PROICE OF NEW HOUSE COMES INTO MARKET .
+Deep Learning (DL)
 
-SUPEVISED LEARNING AND UNSUPERVISED LEARNING 
-IN SL THE DATA IS A LABELED RIGHT NO CLUSTERS LIKE THERE IS  ALIGNMENT OF THE DATA LIKE IN FORM OF TABLES 
-IN USL IN WHICH DATA IS NOT LABELED IT IS MIXED , UNLABELED IT UNDERSTAND BY RECONGNIE THE PATTERNS LIKE CLUSTERING .
+Robotics
 
-DEEP LEARNING 
-NEURAL NETWORKS 
-BACKWARD ERROR PROPOGATION N TIMES 
-WHICH ONE TO CHOOSE STATISTICAL ML OR DEEP LEARNING 
-SMALL DATASETS , LIMITED COMPUTE RESOURCES AND INTERPRETABLITLIY THEN USJE ML 
-IF  BIG DATASETS COMPLEX FEATURES IMAGES VIDEO AND AUDIOO AND ENOUGH COMPUTER RESOURCES THEN USE DL 
+Traditional System vs Machine Learning
+Traditional Programming
 
-ARCHITECTUER OF NEURAL NETWORK  -> FFN , RNN , CNN , TRANSFORMERS
-IN FNN LIKE A JUICER MACHINE WE DONT KNOW THE PROCESS BEHIND THAT JUST OUTPUT 
-IN RNN LIKE WE MAKE A SOUP AND PUT ONE BY ONE INGRIDIENTS IF THERE IS SOMETHING ODD THEN WE USE SOME MORE INGRIDIENCES BY GETTING FEEDBACK RIGHT 
-IN TRANSFORMER LIKE A CHATGPT GIVE COMMAND POEN ON SAMOSA RECIPIE THEN HE RYM AND GIVETO US BECAUSE OF TRANSFORMER ACHITECTURE 
+Logic + Input → Program → Output
 
+Machine Learning
 
-TOOLING FOR DL
-PYTORCH BY META MORE BEGIINER FRIENDLY 
-TENSERFLOW BY GOOGLE  
-AND ANOTHER ONE IS GPU BECAUSE THERE IS HUG VOLUME OF DATA 
+Input + Output → Training → Model (learned logic)
+New Input → Inference → Output
 
-GENAI-> 
-NOW MODELS FOR ALL THE CATEGORIES 
-TEXT-MODELS -> GPT,LLAMA ,GEMINI,CLAUDE 
-IMAGE MODELS -> DALL-E ,STABLE DIFFUSION 
-AUDIO MODELS->AUDIO GEN , MUSIC LM 
-VIDEO MODELS -> SORA 
+👉 Logic is learned from data, not written manually.
 
-LOOK DIFFERENCE BETWEEN TRADITIONAL AI ANDD GENERATIVE AI IS 
-IN TI WE ANALYZE PREDICT CLASSIFY OR AMKE DECISION BUT IN GEN AI GENERATE NEW CONTENT LIKE TEXT IMAGES CODE AUDIO ETC
-IN TI TAKS IS LIKE FRAUD , PRICE DETECTION AND SAM FILTERING ETC BUT IN GEN AI WRITTING ESSAYS GENERATIONG IMAGES AND SUMMARINZING TEXTS 
-IN TI OUTUPUT IS LIKE FIXED STRUCTRED OUTPUR YES NO LABELS NUMBER BUT IN GEN AI THERE ARE CREATIVE UNSTRUCTURED OUTPUS LIKE SENTENCES IMAGES MUSCIC ETC.
-IN TI WE USE MODEL LIKE DECUISSION TREES SVM LINEAR REGRESSION RULES BASED SYSTEM BUT TIN GEN AI WE USE LLMS GANS DIFFUSION MODELS 
-IN TI TTRAINING DEPENDS OFTEN SUPERVISED LEARNING WITH LABELED DATA BUT IN GEN AI IT IS PRETRAINED ON MASSIVE DATASETS 
-IN TI THE CAPIBLITIES OF LIKE HUMAN IS LIMITED ONLY TASK-SPECIFIC LOGIC BUT IN GEN AI IT IS HIGH CAN MIMIC HUMAN WRITING ART REASONING CONVERSATIO ETC
-IN TI WE USE TOOLS LIKE XG BOOST , SCIKIT-LEARN MODELS RULES ENGINES AND IN GEN AI WE USE GPT BALL-E CLAUDE STABLE DIFFUSION GEMINI ETC 
+Machine Learning (ML)
 
-GEN-AI IT IS A TYPE OF AI IN WHICH IT GENERATES NEW CONTENT LIKE IMAGES TEXT AUDIO  VIDDEO ETC
+ML allows systems to learn from data without explicit programming.
 
-WHAT ARE LLMS-> LLMS MEANS LLIKE AN EX OF A PARROT AND THEIR MOM CONVO NOW THEY DAILY DO CONVO AND USING THE PAST CONVO PARROT SAYS MOM I AM HUNGRY SERVE BIRYANI NOW LARGE MEANS LIE PARRROT HAVE A SUPERPOWER TO LISTEN ALL THE THINGS CONVO AROUND THE TOWNS CITIES ACROSS THE WORLD NOW USE THAT DAYA IT GIVES SUGGESTIONS TO THE SCIENTIST , COOKS ENGINERRS ETC LIKE GPT OR GPT4 ,5 
-NOW PARROT ALSO HEARD BAD THINGS NOW IF SOMEONE ASK IT SOMETHING TO MAKE SURE IT NOT GIVES BAD ANSWERS THREATS ETC WE USE RHLF AND GPT BUILDERS ALSO USE THIS TO MAKE SURE THE ANSWER IS IN POLITE FORMS 
+Types of ML Problems
 
-NOW WHAT IS AI AGENTS AND AGENTIC AI ( HIG LEVEL OVERVIEW WE DO IN THIS )
-NOW UNDER THIS THERE IS TWO TYPES ONE IS WORKFLOW AND AGENTS 
-RAG-> LET ASSUME WE HAVE A COMPANY AND WE MAKE THAT CHATBOT IN THAT WAY LIKE ANYONE ASK QUESTION ABOUT POLICY AND LEAVES RIGHT SIMPLE QUESTINOS NOW IF WWE ASK THESE QUESTION TO CHATGPT ,GEMIINI THEY CANT GIVE ANSWER BECAUSE OUR COMAPNY IS PRIVATE BUT SOMEHOW WE CONNECTED THE CHATGPT TO THESE CHATBOT NOW IT GIVE US ANSWER SO THIS IS  CALLED RAG RIGHT 
-IN TOOL AUGUMENTED SYSTEM-> IN UPPER RAG PROCESS REPEAT AND ADD A API INTO LLM IN WHICH WE LOGIN INTO CHATBOT DIRECTLY ASK HOW MANY LLEAVES ARE PENDING IT SAY THIS THAT AND WE ALSO ORDER IT TO APPLY A LEAVE ON THAT DAY IT APLIES SO IT IS TOOL AUGUMENTED SYSTEM RIGHT 
+Classification → Fixed output
+Example: Spam / Not Spam
 
-NOW IN AGENT
+Regression → Continuous value
+Example: House price prediction
 
-""" 
+Types of Learning
+Supervised Learning
 
+Data is labeled
 
+Structured (tables)
+
+Used for classification & regression
+
+Unsupervised Learning
+
+Data is unlabeled
+
+Finds patterns automatically
+
+Example: Clustering
+
+Deep Learning (DL)
+
+Uses Neural Networks
+
+Learns via backpropagation (error correction multiple times)
+
+When to Use What?
+
+ML → Small data, limited compute, high interpretability
+
+DL → Big data, images/audio/video, high compute power
+
+Neural Network Architectures
+
+FNN → Like a juicer (input → output, hidden process)
+
+RNN → Like cooking step-by-step with feedback
+
+CNN → Image understanding
+
+Transformers → Context understanding (used in ChatGPT)
+
+Deep Learning Tools
+
+PyTorch (Meta) → Beginner friendly
+
+TensorFlow (Google)
+
+GPU → Needed for large-scale training
+
+Generative AI (GenAI)
+
+GenAI generates new content like text, images, audio, and video.
+
+GenAI Models
+
+Text → GPT, LLaMA, Gemini, Claude
+
+Image → DALL-E, Stable Diffusion
+
+Audio → MusicLM
+
+Video → Sora
+
+Traditional AI vs Generative AI
+Traditional AI	Generative AI
+Predicts / Classifies	Creates new content
+Fixed output (Yes/No, Number)	Creative output (Text, Image, Music)
+Decision Trees, SVM	LLMs, GANs, Diffusion
+Task-specific	Human-like creativity
+What are LLMs (Large Language Models)?
+
+LLMs are like a super-powered parrot 🦜
+
+Learns from massive text data
+
+Predicts the next best word
+
+Used by scientists, engineers, writers
+
+Safety
+
+RLHF ensures polite & safe responses
+
+AI Agents & Agentic AI (High-Level)
+RAG (Retrieval Augmented Generation)
+
+LLM + Company private data
+
+Example: Company policy chatbot
+
+Tool-Augmented Systems
+
+LLM + APIs
+
+Example: Check leave balance & apply leave automatically
+
+AI Agents
+
+An AI Agent can:
+
+Perceive environment
+
+Make decisions
+
+Take actions to achieve a goal
+
+Agentic AI
+
+Agentic AI = Multiple advanced agents working autonomously using:
+
+Goal-oriented planning
+
+Multi-step reasoning
+
+Tool usage
+
+Memory
+
+Example:
+Auto onboarding a new employee (email, ID card, laptop, HR system)
+
+Generative AI vs Agentic AI (Final Difference)
+Generative AI	Agentic AI
+Generates content	Achieves goals
+No autonomy	High autonomy
+Single response per prompt	Multi-step actions
+ChatGPT writing text	AI onboarding an employee
+Reactive	Proactive
+
+👉 GenAI is a part of Agentic AI
+Agentic AI = GenAI + Reasoning + Tools + Autonomy
