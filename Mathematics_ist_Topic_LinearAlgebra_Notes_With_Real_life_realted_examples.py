@@ -248,3 +248,78 @@ k = | 1 |
     |  0  |
 """
 #Finish 
+# first we compplete the  READING PART now we start the implementation part okey 
+#This block is for code th4e upper definnation because here we do all the implementations okey
+#1. To write a matrix
+import numpy as np
+matrix = np.array([[1,2,3],[2,3,4],[4,5,6]])
+matrix
+rectangular_matrix = np.array([[1,2,3,4],[1,2,4,5]]) # 2X4 2 Rows and 4columns
+rectangular_matrix
+diagonal_matrix = np.diag([1,2,3])
+diagonal_matrix
+scaler_matrix = 3*np.eye(4) # np.eye make the identity matrix and outer 3 multiply this into scaler that is 3 to all the diaogonals
+scaler_matrix
+Null_matrix = np.zeros((5,4)) # zeroes matlab ek zeores ka matrix create kerta hai right
+Null_matrix
+upper_triangular_matrix = np.triu(matrix)
+upper_triangular_matrix
+lower_triangular_matrix = np.tril(matrix)
+lower_triangular_matrix
+idempotent_matrix = np.allclose(matrix @ matrix, matrix)
+idempotent_matrix
+if np.allclose(idempotent_matrix,matrix): # idempotent_matrix here is A² and right side is A
+    print("Idempotent")
+else:
+    print("Not Idempotent")
+involuntary_matrix = np.array([[1,0],[0,1]])
+involuntary_matrix
+nipolent_matrix  = np.array([[0,1],[0,0]])
+nipolent_matrix
+nipolent_matrix @ nipolent_matrix # matlab tak tak muliply kerenge jab tak zero nahi aa jate rught
+singular_matrix = np.linalg.det(matrix)
+singular_matrix # jis matrix ka determniant 0 aa jaye to vo singular_matrix hoti hai
+row_matrix = np.array([1,2,3])
+row_matrix
+column_matrix = np.array([[1],[2],[3]])
+column_matrix
+A =  np.array([[1,2,3],[2,3,4],[4,5,6]])
+B = np.array([[1,2,3],[2,3,4],[4,5,6]])
+if np.allclose(A,B):
+    print("Equal")
+else:
+    print("Not Equal")
+if A.shape == B.shape:
+    print("Equal")
+else:
+    print("Not Equal")
+
+#Lecture 2:
+C= np.add(A,B)
+C
+S = np.subtract(A,B)
+S
+zero_matrix = np.zeros((3,3))
+if np.array_equal(A+zero_matrix, zero_matrix+A):
+    print("aditive identiy")
+else:
+    print("Not")
+a =  np.array([[1,2,3],[2,3,4],[4,5,6]])
+b = np.array([[1,2,3],[2,3,4],[4,5,6]])
+zero_matrixfor_inverse = np.zeros_like(a) # ye same shape and size ka zoeres matrix bana deta hai
+if np.array_equal(a+(-b),zero_matrixfor_inverse):
+    print("aditive inverse")
+else:
+    print("not aditive inverse ")
+cancelation_a =  np.array([[1,2,3],[2,3,4],[4,5,6]])
+cancelation_b = np.array([[1,2,3],[2,3,4],[4,5,6]])
+z_zero = np.zeros((3,3))
+if np.array_equal(cancelation_a + C , cancelation_b +C):
+    print("cancelation")
+else:
+    print("not cancelation")
+#Substractino and Multilication same jaise hai to use nahi kerte next hai lecture 3
+# lecture 3: Trace
+trace_A = np.array([[1,22,3],[22,3,4],[4,5,66]])
+print(np.trace(trace_A))
+# now in this linear algebra till now there is only few 5 topics in which we use the real life code exampler to understnad the further topics that is 
