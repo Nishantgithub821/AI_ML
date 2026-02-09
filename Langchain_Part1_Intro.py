@@ -1,4 +1,12 @@
-                              USER
+So Actually we follow the campusX channel beecause that would be the best channel i thought so 
+2 → 3 → 4 → 6 → 7 → 8
+→ 9 → 10 → 11
+→ 12 → 13 → 14 → 15 → 16
+→ 17
+→ 18 → 19 → 20
+This is videos watch order and the playlist link is here i
+https://youtube.com/playlist?list=PLKnIA16_RmvaTbihpo4MtzVm4XOQa0ER0&si=ltkMkW9JTR3ZPnNR
+USER
                                ↓
 +-------------------------------------------------------------+
 |                                                             |
