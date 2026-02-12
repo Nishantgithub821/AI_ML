@@ -53,4 +53,27 @@ And these are replaced by chatbots now what the chatbots do instead of doing the
 """
 Create a new folder in desktop 
 then open in a vs code 
-then create a new venv with this comand run on vs code terminal python -m venv venv 
+then create a new venv with this comand run on vs code terminal python -m venv venv
+# langchain Core 
+langchain 
+langchain-core 
+#OpenAI Integration 
+langchain-openai
+openai
+
+#Anthropic integration 
+langchain-anthropic
+
+#Google Gemin (Palm) Integratino 
+langchain-google-genai
+google-generativeai
+
+#Hugging gave integratino 
+langchain-huggingface
+transformers
+
+# Environment Variables Managements 
+python-dotenv
+# Machine learning utitlites 
+numpy 
+scikit-learn
