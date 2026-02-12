@@ -23,3 +23,29 @@ open source -> hugging face embedding model and then we create small chatbot oke
 """
 
 # Language Models :
+"""
+Now the thing  is we know what are the language models and we know in which there is two type of models 
+llms and chatbots now the era of llms is now slowly slowly finished because now the langchain technology is coming 
+And these are replaced by chatbots now what the chatbots do instead of doing the text to text generation like llms they generate the text as well and they also do our work help of embedding searching .
+
++-------------------+----------------------------------------------+--------------------------------------------------+
+| Feature           | LLMs (Base Models)                           | Chat Models (Instruction-Tuned)                  |
++-------------------+----------------------------------------------+--------------------------------------------------+
+| Purpose           | Free-form text generation                    | Optimized for multi-turn conversations           |
++-------------------+----------------------------------------------+--------------------------------------------------+
+| Training Data     | General text corpora (books, articles)       | Fine-tuned on chat datasets (dialogues,          |
+|                   |                                              | user-assistant conversations)                    |
++-------------------+----------------------------------------------+--------------------------------------------------+
+| Memory & Context  | No built-in memory                           | Supports structured conversation history         |
++-------------------+----------------------------------------------+--------------------------------------------------+
+| Role Awareness    | No understanding of "user" and "assistant"   | Understands "system", "user", and "assistant"    |
+|                   | roles                                        | roles                                            |
++-------------------+----------------------------------------------+--------------------------------------------------+
+| Example Models    | GPT-3, Llama-2-7B, Mistral-7B, OPT-1.3B      | GPT-4, GPT-3.5-turbo, Llama-2-Chat,              |
+|                   |                                              | Mistral-Instruct, Claude                         |
++-------------------+----------------------------------------------+--------------------------------------------------+
+| Use Cases         | Text generation, summarization, translation, | Conversational AI, chatbots, virtual assistants, |
+|                   | creative writing, code generation            | customer support, AI tutors                      |
++-------------------+----------------------------------------------+--------------------------------------------------+
+
+"""
