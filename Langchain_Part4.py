@@ -49,3 +49,8 @@ And these are replaced by chatbots now what the chatbots do instead of doing the
 +-------------------+----------------------------------------------+--------------------------------------------------+
 
 """
+# Setup 
+"""
+Create a new folder in desktop 
+then open in a vs code 
+then create a new venv with this comand run on vs code terminal python -m venv venv 
