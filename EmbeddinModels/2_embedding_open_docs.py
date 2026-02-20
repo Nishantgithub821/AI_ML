@@ -12,3 +12,5 @@ documents=[
 
 result = embeddings.embed_documents(documents)
 print(str(result)) # now this  will convert into the numbers right 
+
+# the work of this file is only to convert the text into numbers 

@@ -28,7 +28,7 @@ from transformers import AutoTokenizer, AutoModel
 import torch
 
 # --------- Step 1: Choose model ----------
-model_name = "unsloth/all-MiniLM-L6-v2"
+model_name = "unsloth/all-MiniLM-L6-v2" # brain file 
 
 # --------- Step 2: Load tokenizer & model ----------
 tokenizer = AutoTokenizer.from_pretrained(model_name)

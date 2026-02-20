@@ -1,0 +1,4 @@
+#PRATICE DAY -> WEDNESDAY 18-02-26 
+# yaaha pe ham practice kerenge likhne ki code ko right 
+# AGAR HAMNE OEN AI CLAOUDE YA FIR KISI BHI GPT KI API KEY KO BY KER RAKHA HAI TAB HAM SIRF YE KAN KER SAKTE HA KYA 
+ 

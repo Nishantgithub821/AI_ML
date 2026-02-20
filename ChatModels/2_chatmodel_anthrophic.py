@@ -1,5 +1,5 @@
 # now in this also the thing is same that the api key of the claude is also paid right now its up to us that we buy or not but for now we skip that part of payment because for now we only learning the things we dont want to pay anywhere right 
-from langchain_antrhopic import ChatAnthropic
+from langchain_anthropic import ChatAnthropic
 from dotenv import load_dotenv
 load_dotenv()
 

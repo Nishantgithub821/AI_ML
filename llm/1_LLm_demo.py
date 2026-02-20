@@ -5,7 +5,7 @@ from dotenv import load_dotenv # here we import the dotenv in which we store our
 
 load_dotenv() # here we finally load the dotenv so that all set 
 
-llm = OpenAI(model="gpt-3.5-turbo", ) # then here we use model that is our wriiten in there
+llm = OpenAI(model="gpt-3.5-turbo" ) # then here we use model that is our wriiten in there
 result = llm.invoke("What is the capital of India?") # here make variable result and then when we invoke any qyestion
 # then it hit on our api  key and it give back to us the result (text to text as input as output okey )
 # below in terminal it give the answer but for now we dont buy the api  key so it wouldnt give any result 
